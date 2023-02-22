@@ -30,12 +30,12 @@ public class ArraySplit {
         list1.addAll(selectedlist2);
         System.out.println(list1);
 
-        System.out.println("difference between to half lists is: "+Math.abs(sum(selectedlist1)-sum(selectedlist2)));
+        System.out.println(Math.abs(sum(selectedlist1)-sum(selectedlist2)));
     }
 
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the size of the list");
+//         System.out.println("Enter the size of the list");
         int n=sc.nextInt();
         Integer[] arr=new Integer[n];
         for(int i=0;i<n;i++) {
